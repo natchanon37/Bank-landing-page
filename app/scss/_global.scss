@@ -22,6 +22,10 @@ body {
   font-weight: 300;
   color: $grayishBlue;
   line-height: 1.3;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
 //spacing
